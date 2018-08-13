@@ -1,6 +1,10 @@
 var app = new Vue({
     el: '#app',
     data: {
-        message: 'Hello Vue!'
-    }
+        schlClasses: [
+            {link: 'IV A'},
+            {link: 'VI A'},
+            {link: 'VIII A'},
+        ],
+    },
 })
