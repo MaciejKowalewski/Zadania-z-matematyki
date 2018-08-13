@@ -9,13 +9,15 @@
 
 <body>
     <div id="app">
-        <ul>
-            <li v-for="schlclass in schlClasses">
-                <button>
-                    {{schlclass.link}}
-                </button>
-            </li>
-        </ul>
+        <aside>
+            <ul>
+                <li v-for="schlclass in schlClasses">
+                    <button v-on:click="showMathChapters(schlclass.id)">
+                        {{schlclass.link}}
+                    </button>
+                </li>
+            </ul>
+        </aside>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="scripts/app.js"></script>
