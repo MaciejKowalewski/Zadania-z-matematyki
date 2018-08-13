@@ -1,0 +1,18 @@
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    border: 0;
+    background-color: #c2f257;
+    margin: 10px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #dbff8a;
+}
