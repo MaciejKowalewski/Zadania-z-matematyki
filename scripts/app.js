@@ -44,7 +44,7 @@ var app = new Vue({
         ],
         chaptersForLvl5: [
             {chapt: 'Coś tam dalej...'},
-            {chapt: 'Coś tam dalej2'},
+            {chapt: 'Coś tam dalej'},
         ],
     },
     methods: {
