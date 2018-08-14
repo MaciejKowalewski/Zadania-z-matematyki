@@ -20,6 +20,7 @@ button:hover{
 .chapter-section{
     background-color: #ef7d7d;
     width: 0;
+    min-height: 100vh;
     position: absolute;
     top: 0;
     left: 0;
