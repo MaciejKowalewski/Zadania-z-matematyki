@@ -19,17 +19,17 @@ button:hover{
 
 .chapter-section{
     background-color: #ef7d7d;
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
+    width: 0;
+    position: absolute;
     top: 0;
-    left: 100vw;
-    transition: left 1s;
+    left: 0;
+    transition: all 1s;
+    overflow-x: hidden;
 }
 
 .chapter-section-visible{
-    left: 0;
-    transition: left 1s;
+    width: 100%;
+    transition: all 1s;
 }
 
 .exit-btn{

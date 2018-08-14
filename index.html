@@ -24,14 +24,21 @@
             <button class='exit-btn' v-on:click="exitChapters()">X</button>
             <ul>
                 <li v-for="chapter in chaptersForLvl4">
-                    <button v-on:click="showChapter(chapter.chapter1)">
-                        {{chapter.chapter1}}
+                    <button v-on:click="showChapter(chapter.chapt)">
+                        {{chapter.chapt}}
                     </button>
                 </li>
             </ul>
         </section>
         <section class='chapter-section'>
             <button class='exit-btn' v-on:click="exitChapters()">X</button>
+            <ul>
+                <li v-for="chapter in chaptersForLvl5">
+                    <button v-on:click="showChapter(chapter.chapt)">
+                        {{chapter.chapt}}
+                    </button>
+                </li>
+            </ul>
         </section>
         <section class='chapter-section'>
             <button class='exit-btn' v-on:click="exitChapters()">X</button>
