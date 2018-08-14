@@ -9,10 +9,20 @@ var app = new Vue({
             {id: 8, link: 'Zadania dla VIII klasy'},
             {id: 9, link: 'Zadania dla IX klasy'},
         ],
+        chaptersForLvl4: [
+            {chapter: 'Rachunki pamięciowe – dodawanie i odejmowanie'},
+        ],
     },
     methods: {
+        exitChapters: function(){
+            let chapterSection = document.querySelector('.chapter-section');
+            chapterSection.classList.remove(chapterSection.classList[2]);
+            chapterSection.classList.remove('chapter-section-visible');
+        },
         showMathChapters: function(id){
-            console.log(id)
-        }
+            let chapterSection = document.querySelector('.chapter-section');
+            chapterSection.classList.add('chapter-section-visible');
+            chapterSection.classList.add('class'+id);
+        },
     },
 })

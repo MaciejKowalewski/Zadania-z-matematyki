@@ -16,3 +16,25 @@ button:hover{
     cursor: pointer;
     background-color: #dbff8a;
 }
+
+.chapter-section{
+    background-color: #ef7d7d;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 100vw;
+    transition: left 1s;
+}
+
+.chapter-section-visible{
+    left: 0;
+    transition: left 1s;
+}
+
+.exit-btn{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 0;
+}
