@@ -10,8 +10,8 @@ var app = new Vue({
             {id: 5, link: 'Zadania dla IX klasy'},
         ],
         chaptersForLvl4: [
-            {chapter1: 'Rachunki pamięciowe – dodawanie i odejmowanie'},
-            {chapter1: 'Rachunki pamięciowe – mnożenie i dzielenie'},
+            {chapter: 'Rachunki pamięciowe – dodawanie i odejmowanie'},
+            {chapter: 'Rachunki pamięciowe – mnożenie i dzielenie'},
         ],
     },
     methods: {
@@ -24,7 +24,7 @@ var app = new Vue({
             chapterSection[id].classList.add('chapter-section-visible');
         },
         showChapter: function(number){
-          console.log("chapter number "+number);  
+          console.log("chapter: "+number);  
         },
     },
 })
