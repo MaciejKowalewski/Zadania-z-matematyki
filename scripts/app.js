@@ -11,6 +11,7 @@ var app = new Vue({
         ],
         chaptersForLvl4: [
             {chapter1: 'Rachunki pamięciowe – dodawanie i odejmowanie'},
+            {chapter1: 'Rachunki pamięciowe – mnożenie i dzielenie'},
         ],
     },
     methods: {
